@@ -1,0 +1,132 @@
+/*==============================
+person-area
+================================*/
+
+.person-area {
+    background: #f9f9f9;
+}
+
+.person-item {
+    padding-top: 50px;
+}
+
+.person-wrap {
+    margin-bottom: 30px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.person-item2 {
+    padding-top: 50px;
+}
+
+.person-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.person-img img {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.person-wrap:hover .person-img img {
+    -webkit-transform: scale(1.2) rotate(5deg);
+    -ms-transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
+}
+
+.social-list {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    z-index: 44;
+    opacity: 0;
+    text-align: center;
+    transition: all .5s;
+}
+
+.person-wrap {
+    overflow: hidden;
+}
+
+.person-wrap:hover .social-list {
+    opacity: 1;
+}
+
+.social-list ul {
+    display: flex;
+    justify-content: center;
+    background: rgba(94, 154, 142, .6);
+    z-index: 1;
+}
+
+.social-list ul li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    margin: 10px;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.social-list ul li a {
+    color: #fff;
+}
+
+.person-content {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+}
+
+.person-content h3 {
+    font-size: 24px;
+    color: #649e93;
+    font-family: 'Muli', sans-serif;
+}
+
+.person-content span {
+    font-size: 17px;
+}
+
+.person-btn ul {
+    justify-content: center;
+    margin-bottom: 30px!important;
+    border-bottom: 1px solid #8ec7bc5e;
+}
+
+.person-btn ul li a.nav-link {
+    border: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #5e9a8e;
+    transition: all .3s;
+    font-size: 25px;
+    border-right: 1px solid #fff;
+    color:#fff;
+    border-radius: 0;
+    cursor: pointer;
+}
+.person-btn ul li:last-child a {
+     border-right:none;
+}
+.person-btn .nav-tabs .nav-item.show .nav-link, 
+.person-btn .nav-tabs .nav-link.active{
+    background: #4e7b72;
+    color: #fff;
+}
+.person-btn .nav-tabs .nav-item .nav-link:hover{
+    background: #4e7b72;
+    color: #fff;
+}
+
