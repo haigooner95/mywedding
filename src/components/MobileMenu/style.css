@@ -1,0 +1,97 @@
+.mobileMenu {
+    position: fixed;
+    left: -280px;
+    top: 0;
+    z-index: 9999999;
+    height: 100vh;
+    width: 280px;
+    background: #fff;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 10px 40px 0px rgba(50, 50, 50, 0.1);
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+.mobileMenu.show{
+    left: 0;
+}
+.showmenu {
+    position: fixed;
+    right: 15px;
+    top: 18px;
+    z-index: 999999999;
+    cursor: pointer;
+}
+
+.responsivemenu{
+    list-style: none;
+    padding-left: 0;
+}
+.header .responsivemenu li a,
+.header .responsivemenu li p{
+    display: block;
+    padding: 13px 30px;
+    font-size: 16px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #222;
+}
+.header .responsivemenu{
+  display: unset;
+}
+.responsivemenu .card{
+  border:none
+}
+.responsivemenu .card-body{
+  padding-top: 0;
+}
+.logo2 {
+    padding: 20px;
+    border-bottom: 1px solid #e7f7fe;
+    padding-bottom: 13px;
+}
+.logo2 h2 a{
+    color:#85aaba ;
+}
+.responsivemenu .card-body li{
+    background: transparent;
+}
+.responsivemenu li a{
+    position: relative;
+}
+.responsivemenu li i{
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.showmenu i{
+    font-size: 30px;
+    color: #fff;
+}
+.showmenu{
+    display: none;
+}
+.header .responsivemenu li{
+  padding: 0;
+  border-bottom: 1px solid #e7f7fe;
+}
+.header .responsivemenu .card-body li{
+  padding: 0;
+  border-left: 1px solid #e7f7fe;
+  border-right: 1px solid #e7f7fe;
+}
+.header .responsivemenu li p{
+    margin-bottom: 0;
+}
+@media (min-width:992px){
+    .mobileMenu{
+        display: none;
+    }
+}
+
+@media (max-width:992px){
+    .showmenu{
+        display: block;
+    }
+}
+

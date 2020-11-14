@@ -1,0 +1,80 @@
+/*===============================
+welcome-area
+=================================*/
+
+.welcome-area {
+    background: url(../../images/1.jpg);
+    position: relative;
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.welcome-area:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#000, #649e93);
+    opacity: .8;
+}
+
+.welcome-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.welcome-content h2 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.welcome-content p {
+    font-size: 18px;
+    padding: 20px 50px 30px;
+    color: #fff;
+    max-width: 700px;
+    margin: auto;
+}
+
+.btn a {
+    display: inline-block;
+    background: #fff;
+    color: #649e93;
+    padding: 10px 38px;
+    font-size: 18px;
+    transition: all .3s;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.btn a:hover {
+    background: #3f7267;
+    color: #fff;
+}
+
+@media (max-width:767px){
+    .welcome-content {
+        padding: 60px 0 30px;
+    }
+
+    .welcome-content p {
+        font-size: 14px;
+        padding: 20px 10px 30px;
+    }
+    .welcome-content h2 {
+        font-size: 35px;
+        color: #fff;
+    }
+    .welcome-content {
+        padding: 85px 0 0;
+    }
+}
