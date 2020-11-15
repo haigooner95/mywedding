@@ -1,4 +1,4 @@
-import React from  'react';
+import React from 'react';
 
 // components
 import Couple from '../../components/couple';
@@ -10,26 +10,25 @@ import Location from '../../components/location';
 import Gallery from '../../components/gallery';
 import Rsvp from '../../components/rsvp';
 import Gift from '../../components/gift';
-import Navbar from '../../components/Navbar'
-import Saveday from '../../components/countdown'
-
+import Navbar from '../../components/Navbar';
+import Saveday from '../../components/countdown';
 
 const Homepage4 = () => {
-    return(
-       <div>
-           <Navbar/>
-           <BackgroundVideo/>
-           <Saveday/>
-           <Couple/>
-           <Welcome/>
-           <Story/>
-           <People/>
-           <Location/>
-           <Gallery/>
-           <Rsvp/>
-           <Gift/>
-       </div>
-    )
-}
+  return (
+    <div>
+      <Navbar />
+      <BackgroundVideo />
+      <Saveday />
+      <Couple />
+      <Welcome />
+      <Story />
+      <People />
+      <Location />
+      <Gallery />
+      <Rsvp />
+      <Gift />
+    </div>
+  );
+};
 
 export default Homepage4;
