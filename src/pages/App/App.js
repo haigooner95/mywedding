@@ -11,7 +11,6 @@ const App = () => {
       <Router>
         <Switch>
           <Route exact path="/" component={Homepage} />
-          <Route path="/home" component={Homepage} />
         </Switch>
         <Footer />
         <Scrollbar />
