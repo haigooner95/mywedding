@@ -79,11 +79,7 @@ img {
   opacity: 1;
   left: 0;
   width: 100%;
-  background: #1e7b67;
   border: none;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 .fixed-navbar.active .header-style-2,
 .fixed-navbar.active .header-style-3 {
