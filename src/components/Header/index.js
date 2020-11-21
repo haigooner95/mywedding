@@ -9,11 +9,8 @@ const Header = () => {
       <div className="header">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-10"></div>
-            <div className="col-lg-9">
-              <div className="header-menu d-lg-block d-none">
-                <MusicButton />
-              </div>
+            <div className="col-12">
+              <MusicButton />
             </div>
           </div>
         </div>
