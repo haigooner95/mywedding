@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: my-wedding
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-wedding
+  template:
+    metadata:
+      labels:
+        app: my-wedding
+    spec:
+      containers:
+        - name: my-wedding
+          image: piavgh/my-wedding:0.0.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
