@@ -51,6 +51,8 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .ceromony-content h3 {
@@ -71,4 +73,16 @@
 .ceromony-content p {
   padding: 20px 0;
   padding-right: 20px;
+}
+
+.ceromony-content .time {
+  font-weight: 600;
+}
+
+.ceromony-content .location {
+  font-weight: 400;
+}
+
+.ceromony-content .locationMap {
+  margin-top: 20px;
 }

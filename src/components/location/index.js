@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { anHoiLocation, damCuoiLocation } from '../../config';
 import Sectiontitle from '../section-title';
 import strory1 from '../../images/events/1.jpg';
 import strory2 from '../../images/events/2.jpg';
-import strory3 from '../../images/events/3.jpg';
 
 import './style.css';
 
@@ -22,15 +21,19 @@ const Location = () => {
               </div>
               <div className="col-lg-7">
                 <div className="ceromony-content">
-                  <h3>Wedding Ceremony</h3>
-                  <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-                  <span>256 Apay Road,Califonia Bong, London</span>
-                  <p>
-                    It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal{' '}
-                  </p>
-                  <Link to="/">See Location</Link>
+                  <h3>Lễ ăn hỏi</h3>
+                  <span className="time">10 giờ sáng thứ 4, ngày 31 tháng 3 năm 2021</span>
+                  <span className="location">
+                    Làng Hải Hạ, xã Nam Thái, huyện Nam Trực, tỉnh Nam Định
+                  </span>
+                  <a
+                    className="locationMap"
+                    href={anHoiLocation}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Xem địa điểm trên Google Maps
+                  </a>
                 </div>
               </div>
             </div>
@@ -40,42 +43,25 @@ const Location = () => {
           <div className="row">
             <div className="col-lg-7">
               <div className="ceromony-content ceromony-content2">
-                <h3>Wedding Party</h3>
-                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-                <span>256 Apay Road,Califonia Bong, London</span>
-                <p>
-                  It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout. The point of using Lorem Ipsum is
-                  that it has a more-or-less normal{' '}
-                </p>
-                <Link to="/">See Location</Link>
+                <h3>Tiệc cưới</h3>
+                <span className="time">11h trưa Chủ nhật, ngày 4 tháng 4 năm 2021</span>
+                <span className="location">
+                  Cung Eden, trung tâm tiệc cưới Cát Bi Plaza, số 1 Lê Hồng Phong, quận Ngô Quyền,
+                  thành phố Hải Phòng
+                </span>
+                <a
+                  className="locationMap"
+                  href={damCuoiLocation}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Xem địa điểm trên Google Maps
+                </a>
               </div>
             </div>
             <div className="col-lg-5">
               <div className="ceromony-img">
                 <img src={strory2} alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="Ceremony-wrap">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="ceromony-img">
-                <img src={strory3} alt="" />
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div className="ceromony-content">
-                <h3>Reception Party</h3>
-                <span>Sunday, 25 July 18, 9.00 AM-5.00 PM</span>
-                <span>256 Apay Road,Califonia Bong, London</span>
-                <p>
-                  It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout. The point of using Lorem Ipsum is
-                  that it has a more-or-less normal{' '}
-                </p>
-                <Link to="/">See Location</Link>
               </div>
             </div>
           </div>
