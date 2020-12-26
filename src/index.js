@@ -7,6 +7,7 @@ import './css/font-awesome.min.css';
 import './css/flaticon.css';
 import './css/responsive.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './plugins/i18n';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
