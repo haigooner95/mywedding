@@ -3,3 +3,7 @@ export const anHoiLocation =
 
 export const damCuoiLocation =
   'https://www.google.com/maps/place/C%C3%A1t+Bi+Plaza/@20.8606203,106.6970492,20.41z/data=!4m5!3m4!1s0x314a7aea2d6a1945:0x531f776c00ef1003!8m2!3d20.8608186!4d106.6969531';
+
+export const facebookCoDau = 'https://www.facebook.com/profile.php?id=100006960428492';
+
+export const facebookChuRe = 'https://www.facebook.com/piavgh';
