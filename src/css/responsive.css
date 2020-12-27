@@ -44,7 +44,7 @@
   .section-title h2:before {
     width: 25%;
     height: 90%;
-    bottom: -16px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -158,7 +158,7 @@
   .section-title h2:before {
     width: 33%;
     height: 89%;
-    bottom: -16px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -385,7 +385,7 @@ extra small mobile 320px.
     padding: 70px 15px;
   }
   .section-title h2 {
-    font-size: 30px;
+    font-size: 50px;
   }
   .service-area-menu li a {
     padding: 10px 25px;
@@ -631,7 +631,7 @@ extra small mobile 320px. end
   .section-title h2:before {
     width: 45%;
     height: 89%;
-    bottom: -16px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -808,7 +808,7 @@ extra small mobile 320px. end
   .section-title h2:before {
     width: 48%;
     height: 120%;
-    bottom: -16px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -823,7 +823,7 @@ extra small mobile 320px. end
   .section-title h2:before {
     width: 53%;
     height: 120%;
-    bottom: -16px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
   }
