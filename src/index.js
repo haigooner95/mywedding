@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import './css/font-awesome.min.css';
 import './css/flaticon.css';
 import './css/responsive.css';
+import './css/fontvn.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './plugins/i18n';
 
