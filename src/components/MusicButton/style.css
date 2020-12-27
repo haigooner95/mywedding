@@ -23,6 +23,10 @@ audio {
   cursor: pointer;
 }
 
+.music-btn:focus {
+  outline: none;
+}
+
 .music-btn img {
   height: auto;
   max-width: 100%;
