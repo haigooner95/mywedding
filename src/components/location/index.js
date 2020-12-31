@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 import { anHoiLocation, damCuoiLocation } from '../../config';
 import Sectiontitle from '../section-title';
 import strory1 from '../../images/events/1.jpg';
@@ -7,10 +9,12 @@ import strory2 from '../../images/events/2.jpg';
 import './style.css';
 
 const Location = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="event" className="service-area section-padding">
       <div className="container">
-        <Sectiontitle section={'When & Where'} />
+        <Sectiontitle section={t('WHEN_WHERE')} />
         <div className="service-area-menu">
           <div className="Ceremony-wrap">
             <div className="row">
