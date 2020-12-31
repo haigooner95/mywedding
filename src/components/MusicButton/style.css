@@ -28,8 +28,7 @@ audio {
 }
 
 .music-btn img {
-  height: auto;
-  max-width: 100%;
+  display: flex;
 }
 
 .music-btn span:nth-child(2) {
