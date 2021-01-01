@@ -102,9 +102,6 @@
   .story-area.story-area2 .story-content-m2:after {
     top: 202px;
   }
-  .clock-area {
-    padding: 9px 5px 5px 20px;
-  }
   .couple-content2 p {
     padding: 1px 20px 6px;
     font-size: 15px;
@@ -192,9 +189,6 @@
     height: 60%;
     top: 38px;
     left: 33%;
-  }
-  .clock-area {
-    padding: 14px 5px 5px 13px;
   }
   .section-area h2 {
     font-size: 34px;
@@ -479,10 +473,6 @@ extra small mobile 320px.
   }
   .count-down-section #clock > div + div {
     margin-left: 0;
-  }
-
-  .clock-area {
-    padding: 0 10px;
   }
   .count-down-section {
     padding: 70px 0 40px;

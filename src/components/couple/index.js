@@ -1,54 +1,39 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
+import { facebookCoDau, facebookChuRe } from '../../config';
 import Sectiontitle from '../section-title';
-import couple1 from '../../images/couple/img-1.jpg';
-import couple2 from '../../images/couple/img-2.jpg';
-import couple3 from '../../images/couple/2.png';
+import codauImg from '../../images/couple/co-dau.png';
+import chureImg from '../../images/couple/chu-re.png';
+import greenHeartImg from '../../images/couple/green-heart.png';
 import './style.css';
 
 const Couple = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="couple" className="about-wrap">
       <div className="couple-area section-padding pb-70">
-        <Sectiontitle section={'Happy Cuple'} />
+        <Sectiontitle section={t('HAPPY_COUPLE')} />
         <div className="container">
           <div className="couple-wrap">
             <div className="row">
               <div className="col-lg-5 col-md-12 col-sm-12 couple-single">
                 <div className="couple-wrap couple-wrap-2">
                   <div className="couple-img">
-                    <img src={couple1} alt="thumb" />
+                    <img src={codauImg} alt="thumb" />
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
-                      <h3>NANCY ELIZABETH</h3>
-                      <p>
-                        Hi I am Nancy Elizabeth. I am going to introduce myself.I am a professional
-                        graphic designer professional graphic designer going to introduce myself.I
-                        am going to introduce myself.
-                      </p>
+                      <h3>Thủy</h3>
+                      <p>{t('BRIDE_DESCRIPTION')}</p>
                     </div>
                     <div className="social-icon">
                       <ul className="d-flex">
                         <li>
-                          <Link to="/">
+                          <a href={facebookCoDau} target="_blank" rel="noopenner noreferrer">
                             <span className="fa fa-facebook"></span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/">
-                            <span className="fa fa-twitter"></span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/">
-                            <span className="fa fa-google-plus"></span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/">
-                            <span className="fa fa-linkedin"></span>
-                          </Link>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -57,44 +42,25 @@ const Couple = () => {
               </div>
               <div className="col-lg-2 couple-single">
                 <div className="couple-shape">
-                  <img src={couple3} alt="shape" />
+                  <img src={greenHeartImg} alt="shape" />
                 </div>
               </div>
               <div className="col-lg-5 col-md-12 col-sm-12 couple-single">
                 <div className="couple-wrap couple-wrap-3">
                   <div className="couple-img couple-img-2">
-                    <img src={couple2} alt="thumb" />
+                    <img src={chureImg} alt="thumb" />
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
-                      <h3>HARRY WILLIAM</h3>
-                      <p>
-                        Hi I am Harry William. I am going to introduce myself.I am a professional
-                        graphic designer professional graphic designer going to introduce myself.I
-                        am going to introduce myself.
-                      </p>
+                      <h3>Hoàng</h3>
+                      <p>{t('GROOM_DESCRIPTION')}</p>
                     </div>
                     <div className="social-icon">
                       <ul className="d-flex">
                         <li>
-                          <Link to="/">
+                          <a href={facebookChuRe} target="_blank" rel="noopenner noreferrer">
                             <span className="fa fa-facebook"></span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/">
-                            <span className="fa fa-twitter"></span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/">
-                            <span className="fa fa-google-plus"></span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/">
-                            <span className="fa fa-linkedin"></span>
-                          </Link>
+                          </a>
                         </li>
                       </ul>
                     </div>

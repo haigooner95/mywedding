@@ -123,5 +123,7 @@
 
 .clock-area {
   background: #5e9a8d;
-  padding: 20px 5px 7px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
