@@ -112,3 +112,25 @@ select.form-control:not([size]):not([multiple]) {
   color: #666;
   font-size: 14px;
 }
+
+.rsvp-form-url {
+  display: inline-block;
+  background: #649e93;
+  color: white;
+  padding: 10px 38px;
+  font-size: 18px;
+  transition: all 0.3s;
+  font-weight: 600;
+  border-radius: 40px;
+}
+
+.rsvp-form-url:hover {
+  background: white;
+  color: #649e93;
+}
+
+.rsvp-form-url:active,
+.rsvp-form-url:focus {
+  background: #649e93;
+  color: white;
+}
