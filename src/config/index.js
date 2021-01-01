@@ -7,3 +7,6 @@ export const damCuoiLocation =
 export const facebookCoDau = 'https://www.facebook.com/profile.php?id=100006960428492';
 
 export const facebookChuRe = 'https://www.facebook.com/piavgh';
+
+export const rsvpFormUrl =
+  'https://docs.google.com/forms/d/e/1FAIpQLSfuVdV89-lEgfaad4wjtgD5UtIgK7YM4ZMqMhCZRAa4iHSIlA/viewform';
