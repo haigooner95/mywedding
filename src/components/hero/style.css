@@ -11,7 +11,10 @@
 }
 
 .item1 {
-  background: url(../../images/slider/1.jpg);
+  background: url(../../images/slider/slide1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 950px;
   display: flex !important;
   justify-content: center;
@@ -21,7 +24,10 @@
 }
 
 .item2 {
-  background: url(../../images/slider/2.jpg);
+  background: url(../../images/slider/slide2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 950px;
   display: flex !important;
   justify-content: center;
