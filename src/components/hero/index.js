@@ -9,11 +9,11 @@ class SimpleSlider extends Component {
     var settings = {
       dots: false,
       arrows: true,
-      speed: 1200,
+      speed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2500,
+      autoplaySpeed: 3000,
       fade: true,
     };
     return (
@@ -22,10 +22,10 @@ class SimpleSlider extends Component {
           <div className="container">
             <div className="slide-content">
               <div className="slide-subtitle">
-                <h4>WERE GETTING MARRIED</h4>
+                <h4>WE ARE GETTING MARRIED</h4>
               </div>
               <div className="slide-title">
-                <h2>Save Our Date</h2>
+                <h2>Save The Date</h2>
               </div>
               <div className="slide-text">
                 <p>Mùng 4 tháng 4 năm 2021</p>
@@ -38,10 +38,10 @@ class SimpleSlider extends Component {
             <div className="container">
               <div className="slide-content">
                 <div className="slide-subtitle">
-                  <h4>WERE GETTING MARRIED</h4>
+                  <h4>WE ARE GETTING MARRIED</h4>
                 </div>
                 <div className="slide-title">
-                  <h2>Save Our Date</h2>
+                  <h2>Save The Date</h2>
                 </div>
                 <div className="slide-text">
                   <p>Mùng 4 tháng 4 năm 2021</p>
