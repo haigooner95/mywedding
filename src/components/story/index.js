@@ -37,10 +37,6 @@ const Story = () => {
                     </div>
                     <h2>{t('FIRST_TIME_WE_MET')}</h2>
                     <span className="date">{t('FIRST_TIME_WE_MET_DATE')}</span>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some,
-                    </p>
                   </div>
                 </div>
                 <div className="item">
@@ -57,10 +53,6 @@ const Story = () => {
                     </div>
                     <h2>{t('OUR_FIRST_DATE')}</h2>
                     <span className="date">{t('OUR_FIRST_DATE_DATE')}</span>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some,
-                    </p>
                   </div>
                 </div>
                 <div className="item">
@@ -77,10 +69,6 @@ const Story = () => {
                     </div>
                     <h2>{t('OUR_MARRIAGE_PROPOSAL')}</h2>
                     <span className="date">{t('OUR_MARRIAGE_PROPOSAL_DATE')}</span>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some,
-                    </p>
                   </div>
                 </div>
                 <div className="item">
@@ -97,10 +85,6 @@ const Story = () => {
                     </div>
                     <h2>{t('OUR_ENGAGEMENT')}</h2>
                     <span className="date">{t('OUR_ENGAGEMENT_DATE')}</span>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some,
-                    </p>
                   </div>
                 </div>
               </div>
