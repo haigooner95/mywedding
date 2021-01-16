@@ -821,12 +821,12 @@ extra small mobile 320px. end
 
 @media (max-width: 408px) {
   .section-title h2:before {
-    width: 68%;
+    width: 60%;
   }
 }
 
 @media (max-width: 365px) {
   .section-title h2:before {
-    width: 78%;
+    width: 65%;
   }
 }
