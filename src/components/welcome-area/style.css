@@ -3,9 +3,8 @@ welcome-area
 =================================*/
 
 .welcome-area {
-  background: url(../../images/1.jpg);
+  background: #5f9a8d;
   position: relative;
-  height: 600px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +21,7 @@ welcome-area
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#000, #649e93);
+  background-image: linear-gradient(#163d36, #649e93);
   opacity: 0.8;
 }
 
