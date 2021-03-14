@@ -34,6 +34,7 @@ const Rsvp = () => {
               <div className="col-12">
                 <div className="section-title text-center thank-you-message">
                   <h2>{t('THANK_YOU')}</h2>
+                  <span style={{ fontSize: '24px' }}>💕</span>
                 </div>
               </div>
             </div>

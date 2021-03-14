@@ -785,9 +785,6 @@ extra small mobile 320px. end
   .count-down-clock > div {
     text-align: center;
   }
-  .react-countdown li:nth-child(3) {
-    margin-left: 0;
-  }
   .pb-70 {
     padding-bottom: 40px !important;
   }

@@ -8,7 +8,6 @@ import './style.css';
 
 import galleryImage1 from '../../images/gallery/1.jpg';
 import galleryImage2 from '../../images/gallery/2.jpg';
-import galleryImage3 from '../../images/gallery/3.jpg';
 import galleryImage4 from '../../images/gallery/4.jpg';
 import galleryImage6 from '../../images/gallery/6.jpg';
 import galleryImage7 from '../../images/gallery/7.jpg';
@@ -25,7 +24,6 @@ const Gallery = () => {
   const imgIndexes = {
     1: galleryImage1,
     2: galleryImage2,
-    3: galleryImage3,
     4: galleryImage4,
     6: galleryImage6,
     7: galleryImage7,

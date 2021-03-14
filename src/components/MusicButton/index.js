@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import useSound from 'use-sound';
 
 import './style.css';
@@ -17,11 +17,11 @@ const MusicButton = () => {
     }
   };
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     play();
-  //   }, 5000);
-  // }, [play]);
+  useEffect(() => {
+    setTimeout(() => {
+      play();
+    }, 1000);
+  }, [play]);
 
   return (
     <Fragment>

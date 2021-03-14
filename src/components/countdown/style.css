@@ -88,6 +88,10 @@
 }
 
 @media (max-width: 767px) {
+  .count-down-area {
+    padding-top: 40px;
+  }
+
   .count-down-section h2 > span {
     font-size: 60px;
     font-size: 1.11111rem;
