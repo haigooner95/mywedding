@@ -27,3 +27,8 @@
 .gallery-img:hover .image-box img {
   transform: none;
 }
+
+.gallery-wrapper {
+  display: flex;
+  justify-content: center;
+}

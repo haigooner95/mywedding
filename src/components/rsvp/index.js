@@ -16,23 +16,26 @@ const Rsvp = () => {
               <div className="col-12">
                 <div className="section-title section-title4 text-center">
                   <h2>{t('BE_OUR_GUEST')}</h2>
-                  <p>{t('BE_OUR_GUEST_NOTE')}</p>
+                  <p className="note">{t('BE_OUR_GUEST_NOTE')}</p>
                 </div>
               </div>
-              <form>
-                <div className="contact-form form-style">
-                  <div className="col-12 text-center">
-                    <a
-                      className="rsvp-form-url"
-                      href={rsvpFormUrl}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      {t('BE_OUR_GUEST_FORM_TITLE')}
-                    </a>
-                  </div>
+              <div className="contact-form form-style">
+                <div className="col-12 text-center">
+                  <a
+                    className="rsvp-form-url"
+                    href={rsvpFormUrl}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    {t('BE_OUR_GUEST_FORM_TITLE')}
+                  </a>
                 </div>
-              </form>
+              </div>
+              <div className="col-12">
+                <div className="section-title text-center thank-you-message">
+                  <h2>{t('THANK_YOU')}</h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>

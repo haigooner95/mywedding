@@ -1,11 +1,22 @@
 .rsvp-area {
-  background: linear-gradient(rgba(100, 158, 147, 0.5), rgba(100, 158, 147, 0.5)),
-    transparent url(../../images/guest/1.jpg) center center/cover no-repeat fixed;
+  background: #5f9a8d;
   padding: 100px 0;
   position: relative;
   background-attachment: fixed;
   z-index: 1;
 }
+
+.rsvp-area:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#163d36, #649e93);
+  opacity: 0.8;
+}
+
 .rsvp-wrap {
   background: rgba(255, 255, 255, 0.9);
   padding: 70px;
@@ -36,30 +47,6 @@
   margin-top: 20px;
   font-size: 16px;
   background: #fff;
-}
-
-select.form-control:not([size]):not([multiple]) {
-  height: 50px;
-  border-radius: 5px;
-  color: #666;
-  font-size: 14px;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  background: #fff url(../../images/select-icon.png) no-repeat calc(100% - 15px) center;
-  position: relative;
-  border: none;
-}
-.contact-textarea {
-  width: 100%;
-  height: 170px;
-  margin-top: 20px;
-  padding-left: 10px;
-  padding-top: 10px;
-  border: none;
-  border-radius: 5px;
 }
 
 .contact-form p {
@@ -133,4 +120,9 @@ select.form-control:not([size]):not([multiple]) {
 .rsvp-form-url:focus {
   background: #649e93;
   color: white;
+}
+
+.thank-you-message {
+  margin-top: 2.5rem;
+  margin-bottom: 0 !important;
 }

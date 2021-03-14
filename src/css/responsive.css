@@ -379,7 +379,7 @@ extra small mobile 320px.
     padding: 70px 15px;
   }
   .section-title h2 {
-    font-size: 50px;
+    font-size: 55px;
   }
   .service-area-menu li a {
     padding: 10px 25px;
@@ -811,9 +811,9 @@ extra small mobile 320px. end
 
 @media (max-width: 470px) {
   .section-title h2:before {
-    width: 53%;
+    width: 60%;
     height: 120%;
-    bottom: -40px;
+    bottom: -52px;
     left: 50%;
     transform: translateX(-50%);
   }

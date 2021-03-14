@@ -1,8 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { useTranslation } from 'react-i18next';
+
 import './style.css';
 
 const Welcome = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="welcome-area">
       <div className="container">
@@ -16,10 +20,10 @@ const Welcome = () => {
                 it has a more-or less normal distribution of letters
               </p>
               <div className="btn">
-                <Link to="/home">RSVP</Link>
+                <AnchorLink href="#event">{t('WHEN_WHERE')}</AnchorLink>
               </div>
               <div className="btn">
-                <Link to="/home">Location</Link>
+                <AnchorLink href="#rsvp">{t('RSVP')}</AnchorLink>
               </div>
             </div>
           </div>
