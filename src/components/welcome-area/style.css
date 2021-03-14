@@ -33,6 +33,7 @@ welcome-area
 .welcome-content h2 {
   font-size: 55px;
   color: #fff;
+  margin-bottom: 4rem;
 }
 
 .welcome-content p {
@@ -61,7 +62,7 @@ welcome-area
 
 @media (max-width: 767px) {
   .welcome-content {
-    padding: 60px 0 30px;
+    padding: 60px 0 60px;
   }
 
   .welcome-content p {
@@ -71,8 +72,6 @@ welcome-area
   .welcome-content h2 {
     font-size: 35px;
     color: #fff;
-  }
-  .welcome-content {
-    padding: 85px 0 0;
+    margin-bottom: 2.5rem;
   }
 }
