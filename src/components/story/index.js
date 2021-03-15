@@ -1,10 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import LazyLoad from 'react-lazyload';
 
-import strory1 from '../../images/story/1.jpg';
-import strory2 from '../../images/story/2.jpg';
-import strory3 from '../../images/story/3.jpg';
-import strory4 from '../../images/story/4.jpg';
+import story1 from '../../images/story/1.jpg';
+import story2 from '../../images/story/2.jpg';
+import story3 from '../../images/story/3.jpg';
+import story4 from '../../images/story/4.jpg';
 import './style.css';
 
 const Story = () => {
@@ -31,7 +32,9 @@ const Story = () => {
                     <div className="image-wrap">
                       <div className="single-image">
                         <div>
-                          <img src={strory1} alt="" />
+                          <LazyLoad height="100%">
+                            <img src={story1} alt={t('FIRST_TIME_WE_MET_DATE')} />
+                          </LazyLoad>
                         </div>
                       </div>
                     </div>
@@ -47,7 +50,9 @@ const Story = () => {
                     <div className="image-wrap">
                       <div className="single-image">
                         <div>
-                          <img src={strory2} alt="" />
+                          <LazyLoad height="100%">
+                            <img src={story2} alt={t('OUR_FIRST_DATE_DATE')} />
+                          </LazyLoad>
                         </div>
                       </div>
                     </div>
@@ -63,7 +68,9 @@ const Story = () => {
                     <div className="image-wrap">
                       <div className="single-image">
                         <div>
-                          <img src={strory3} alt="" />
+                          <LazyLoad height="100%">
+                            <img src={story3} alt={t('OUR_MARRIAGE_PROPOSAL_DATE')} />
+                          </LazyLoad>
                         </div>
                       </div>
                     </div>
@@ -79,7 +86,9 @@ const Story = () => {
                     <div className="image-wrap">
                       <div className="single-image">
                         <div>
-                          <img src={strory4} alt="" />
+                          <LazyLoad height="100%">
+                            <img src={story4} alt={t('OUR_ENGAGEMENT_DATE')} />
+                          </LazyLoad>
                         </div>
                       </div>
                     </div>

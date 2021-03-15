@@ -1,10 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import LazyLoad from 'react-lazyload';
 
 import { anHoiLocation, damCuoiLocation } from '../../config';
 import Sectiontitle from '../section-title';
-import strory1 from '../../images/events/1.jpg';
-import strory2 from '../../images/events/2.jpg';
+import story1 from '../../images/events/1.jpg';
+import story2 from '../../images/events/2.jpg';
 
 import './style.css';
 
@@ -20,7 +21,9 @@ const Location = () => {
             <div className="row">
               <div className="col-lg-5">
                 <div className="ceromony-img">
-                  <img src={strory1} alt="" />
+                  <LazyLoad height="100%">
+                    <img src={story1} alt="Lễ ăn hỏi" />
+                  </LazyLoad>
                 </div>
               </div>
               <div className="col-lg-7">
@@ -65,7 +68,9 @@ const Location = () => {
             </div>
             <div className="col-lg-5">
               <div className="ceromony-img">
-                <img src={strory2} alt="" />
+                <LazyLoad height="100%">
+                  <img src={story2} alt="Tiệc cưới" />
+                </LazyLoad>
               </div>
             </div>
           </div>

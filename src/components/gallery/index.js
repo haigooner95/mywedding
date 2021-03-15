@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactFancyBox from 'react-fancybox';
 import { useTranslation } from 'react-i18next';
+import LazyLoad from 'react-lazyload';
 
 import 'react-fancybox/lib/fancybox.css';
 import Sectiontitle from '../section-title';
@@ -45,7 +46,9 @@ const Gallery = () => {
             return (
               <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
                 <div className="gallery-img">
-                  <ReactFancyBox thumbnail={imgIndexes[index]} image={imgIndexes[index]} />
+                  <LazyLoad height="100%">
+                    <ReactFancyBox thumbnail={imgIndexes[index]} image={imgIndexes[index]} />
+                  </LazyLoad>
                 </div>
               </div>
             );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import LazyLoad from 'react-lazyload';
 
 import { facebookCoDau, facebookChuRe } from '../../config';
 import Sectiontitle from '../section-title';
@@ -21,7 +22,9 @@ const Couple = () => {
               <div className="col-lg-5 col-md-12 col-sm-12 couple-single">
                 <div className="couple-wrap couple-wrap-2">
                   <div className="couple-img">
-                    <img src={codauImg} alt="thumb" />
+                    <LazyLoad height="100%">
+                      <img src={codauImg} alt="cô dâu" />
+                    </LazyLoad>
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
@@ -48,7 +51,9 @@ const Couple = () => {
               <div className="col-lg-5 col-md-12 col-sm-12 couple-single">
                 <div className="couple-wrap couple-wrap-3">
                   <div className="couple-img couple-img-2">
-                    <img src={chureImg} alt="thumb" />
+                    <LazyLoad height="100%">
+                      <img src={chureImg} alt="chú rể" />
+                    </LazyLoad>
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
