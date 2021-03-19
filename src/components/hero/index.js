@@ -28,7 +28,7 @@ class SimpleSlider extends Component {
                 <h2>Save The Date</h2>
               </div>
               <div className="slide-text">
-                <p>Mùng 4 tháng 4 năm 2021</p>
+                <p>11-04-2021</p>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ class SimpleSlider extends Component {
                   <h2>Save The Date</h2>
                 </div>
                 <div className="slide-text">
-                  <p>Mùng 4 tháng 4 năm 2021</p>
+                  <p>11-04-2021</p>
                 </div>
               </div>
             </div>
