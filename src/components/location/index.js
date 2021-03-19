@@ -51,7 +51,7 @@ const Location = () => {
             <div className="col-lg-7">
               <div className="ceromony-content ceromony-content2">
                 <h3>Tiệc cưới</h3>
-                <span className="time">11h trưa Chủ nhật, ngày 4 tháng 4 năm 2021</span>
+                <span className="time">11h trưa Chủ nhật, ngày 11 tháng 4 năm 2021</span>
                 <span className="location">
                   Cung Eden, trung tâm tiệc cưới Cát Bi Plaza, số 1 Lê Hồng Phong, quận Ngô Quyền,
                   thành phố Hải Phòng

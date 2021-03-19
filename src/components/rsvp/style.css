@@ -32,6 +32,12 @@
 .rsvp-wrap .section-title {
   margin-bottom: 30px;
 }
+
+.rsvp-wrap .note {
+  font-size: 14px;
+  font-style: italic;
+}
+
 .contact-form input {
   width: 100%;
   height: 45px;
