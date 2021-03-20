@@ -469,7 +469,7 @@ extra small mobile 320px.
     max-width: 40%;
   }
   .count-down-clock {
-    padding: 70px 0 40px;
+    padding: 40px 0 40px;
   }
   .count-down-section #clock > div + div {
     margin-left: 0;
@@ -574,6 +574,7 @@ extra small mobile 320px.
   }
   .react-countdown li {
     width: 110px;
+    margin: 10px !important;
   }
 }
 /* =============================
@@ -665,6 +666,7 @@ extra small mobile 320px. end
 
   .react-countdown li {
     width: 100px;
+    margin: 10px !important;
   }
   .count-down-clock > div {
     text-align: center;
