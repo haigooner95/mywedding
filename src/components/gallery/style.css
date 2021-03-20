@@ -7,9 +7,54 @@
   overflow: hidden;
 }
 
-.image-box img {
-  object-fit: cover;
+.image-box {
+  width: 100%;
+  padding: 0px 10px;
+  margin: auto;
+  text-align: center;
 }
+
+.image-box:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  width: 75px;
+  height: 25px;
+  z-index: 1;
+  background-color: rgba(222, 220, 198, 0.7);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+}
+
+.image-box {
+  position: relative;
+  width: auto;
+  max-width: 600px; /* Lebar maksimal gambar */
+  margin: 20px auto 0px;
+  padding: 6px 8px 10px 8px;
+  display: inline-block;
+  -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
+  background-color: #eee6d8;
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.image-box img {
+  object-fit: contain;
+  max-width: 480px;
+  height: auto;
+}
+
 .gallery-img img {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
