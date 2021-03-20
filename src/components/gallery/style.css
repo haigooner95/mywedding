@@ -20,7 +20,7 @@
   -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, 0.75);
-  background-color: #eee6d8 !important;
+  background-color: #f5fbfb !important;
   -webkit-transform: rotate(-1deg);
   -moz-transform: rotate(-1deg);
   -o-transform: rotate(-1deg);
@@ -49,7 +49,7 @@
   object-fit: contain;
   max-width: 480px;
   height: auto;
-  background: #eee6d8;
+  background: #f5fbfb;
 }
 
 .gallery-img img {
