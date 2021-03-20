@@ -3,7 +3,6 @@
   padding: 100px 0;
   position: relative;
   background-attachment: fixed;
-  z-index: 1;
 }
 
 .rsvp-area:before {
