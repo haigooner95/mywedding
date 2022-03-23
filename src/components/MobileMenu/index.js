@@ -23,7 +23,7 @@ export default class MobileMenu extends Component {
           {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
           <div className="logo2">
             <h2>
-              <Link to="/">Hoàng & Thủy</Link>
+              <Link to="/">Yến & Hải</Link>
             </h2>
           </div>
           <ul className="responsivemenu">
