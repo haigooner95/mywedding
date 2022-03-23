@@ -28,7 +28,7 @@ const Couple = () => {
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
-                      <h3>Yến</h3>
+                      <h3>Hải Yến</h3>
                       <p>{t('BRIDE_DESCRIPTION')}</p>
                     </div>
                     <div className="social-icon">
@@ -57,7 +57,7 @@ const Couple = () => {
                   </div>
                   <div className="couple-text">
                     <div className="couple-content">
-                      <h3>Hải</h3>
+                      <h3>Bắc Hải</h3>
                       <p>{t('GROOM_DESCRIPTION')}</p>
                     </div>
                     <div className="social-icon">

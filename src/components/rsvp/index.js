@@ -16,7 +16,7 @@ const Rsvp = () => {
               <div className="col-12">
                 <div className="section-title section-title4 text-center">
                   <h2>{t('BE_OUR_GUEST')}</h2>
-                  <p className="note">{t('BE_OUR_GUEST_NOTE')}</p>
+                  {/*<p className="note">{t('BE_OUR_GUEST_NOTE')}</p>*/}
                 </div>
               </div>
               <div className="contact-form form-style">
