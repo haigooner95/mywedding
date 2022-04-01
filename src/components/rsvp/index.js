@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { rsvpFormUrl } from '../../config';
+// import { rsvpFormUrl } from '../../config';
 import './style.css';
 
 const Rsvp = () => {
@@ -19,18 +19,18 @@ const Rsvp = () => {
                   {/*<p className="note">{t('BE_OUR_GUEST_NOTE')}</p>*/}
                 </div>
               </div>
-              <div className="contact-form form-style">
-                <div className="col-12 text-center">
-                  <a
-                    className="rsvp-form-url"
-                    href={rsvpFormUrl}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    {t('BE_OUR_GUEST_FORM_TITLE')}
-                  </a>
-                </div>
-              </div>
+              {/*<div className="contact-form form-style">*/}
+              {/*  <div className="col-12 text-center">*/}
+              {/*    <a*/}
+              {/*      className="rsvp-form-url"*/}
+              {/*      href={rsvpFormUrl}*/}
+              {/*      target="_blank"*/}
+              {/*      rel="noreferrer noopener"*/}
+              {/*    >*/}
+              {/*      {t('BE_OUR_GUEST_FORM_TITLE')}*/}
+              {/*    </a>*/}
+              {/*  </div>*/}
+              {/*</div>*/}
               <div className="col-12">
                 <div className="section-title text-center thank-you-message">
                   <h2>{t('THANK_YOU')}</h2>

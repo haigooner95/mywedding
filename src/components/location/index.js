@@ -28,8 +28,8 @@ const Location = () => {
               </div>
               <div className="col-lg-7">
                 <div className="ceromony-content">
-                  <h3>Lễ vu quy</h3>
-                  <span className="time">14 giờ chủ nhật, ngày 10 tháng 4 năm 2022</span>
+                  <h3>Lễ thành hôn</h3>
+                  <span className="time">15 giờ chủ nhật, ngày 10 tháng 4 năm 2022</span>
                   <span className="location">
                     Lạc Thổ Nam, thị trấn Hồ, huyện Thuận Thành, Bắc Ninh
                   </span>

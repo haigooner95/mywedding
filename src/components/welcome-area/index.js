@@ -17,9 +17,9 @@ const Welcome = () => {
               <div className="btn">
                 <AnchorLink href="#event">{t('WHEN_WHERE')}</AnchorLink>
               </div>
-              <div className="btn">
-                <AnchorLink href="#rsvp">{t('RSVP')}</AnchorLink>
-              </div>
+              {/*<div className="btn">*/}
+              {/*  <AnchorLink href="#rsvp">{t('RSVP')}</AnchorLink>*/}
+              {/*</div>*/}
             </div>
           </div>
         </div>
